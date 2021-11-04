@@ -1,0 +1,21 @@
+
+
+- Frequency of mentions of organisation
+
+[['government' 3]]
+
+- Frequency of selected selected meaningful terms
+
+[['climate' 24]
+ ['change' 8]
+ ['action' 6]
+ ['emissions' 5]]
+
+- Most used @ mentions
+
+                 Words  wordCount
+524  @borisjohnson      6        
+168  @antonioguterres:  4        
+189  @cop26:            3        
+765  @nafeezahmed:      2        
+143  @berniespofforth:  2        

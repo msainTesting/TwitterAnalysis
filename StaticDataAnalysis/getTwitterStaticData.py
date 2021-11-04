@@ -1,10 +1,9 @@
-from StaticDataAnalysis.accessAuthAPI import getAuth
 import warnings
 
 import tweepy as tw
 
+from StaticDataAnalysis.Data import pushDataIntoFile as saveDatafile
 from StaticDataAnalysis.accessAuthAPI import getAuth
-from StaticDataAnalysis.data import pushDataIntoFile as saveDatafile
 
 warnings.filterwarnings("ignore")
 
@@ -13,7 +12,7 @@ global word_in_tweet
 
 
 def getTweets():
-    n_tweets = 100
+    n_tweets = 200
 
     # set the hashtag to be streamed
     search_term = "#cop26 -filter=retweets"

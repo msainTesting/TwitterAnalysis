@@ -1,0 +1,27 @@
+
+- Most used hashtags with initially selected hashtag
+
+               Words  WordCount
+1641  #climatechange  41       
+769   #climateaction  32       
+2813  #climatecrisis  26       
+3315  #netzero        21       
+6287  #watch          19       
+
+- Most occurring terms 
+
+        Words  WordCount
+4     climate  698      
+183   world    461      
+484   new      187      
+36    private  164      
+1619  change   164      
+
+- Terms that frequently occur together (bigram) 
+
+                    Bigram_Term  count
+11415  𝙩𝙝𝙚 𝙛𝙞𝙜𝙝𝙩                 1    
+11416  𝙛𝙞𝙜𝙝𝙩 𝙖𝙜𝙖𝙞𝙣𝙨𝙩             1    
+11418  𝙘𝙡𝙞𝙢𝙖𝙩𝙚 𝙘𝙝𝙖𝙣𝙜𝙚\n\nindia   1    
+11419  𝙘𝙝𝙖𝙣𝙜𝙚\n\nindia achieved  1    
+11417  𝙖𝙜𝙖𝙞𝙣𝙨𝙩 𝙘𝙡𝙞𝙢𝙖𝙩𝙚           1    

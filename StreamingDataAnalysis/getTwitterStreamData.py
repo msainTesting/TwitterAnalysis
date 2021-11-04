@@ -1,10 +1,10 @@
 import json
 import warnings
+
 import seaborn as sns
 import tweepy
 
 from StreamingDataAnalysis.accessAuthAPI import getStreamingAuth
-from StreamingDataAnalysis.data import readDataFile, cleanData
 from StreamingDataAnalysis.data.pushDataIntoFile import saveDataIntoFile
 
 warnings.filterwarnings("ignore")
@@ -15,7 +15,7 @@ sns.set_style("whitegrid")
 
 # both variables are used to automatically end the stream after 10,000 tweets. Tweet_count is the count variable and n_tweets is the limiter.
 tweet_count = 0
-n_tweets = 40
+n_tweets = 10000
 
 # the list, where the streamed tweets need to be collected and stored in, is generated
 tweets_list = []

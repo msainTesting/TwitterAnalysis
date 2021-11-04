@@ -1,4 +1,6 @@
 import json
+from heapq import merge
+
 import pandas as pd
 import warnings
 warnings.filterwarnings("ignore")
@@ -13,5 +15,11 @@ def loadDataFile(data):
 
 
 def readDataWithPandas(data):
-    data_df = pd.read_json(data)
+    data_df = pd.read_json(data, orient="columns")
     return data_df
+
+def readMultipleDataWithPandas(data1):
+    data_df1 = pd.read_json(data1, orient="values", lines=True)
+    result = merge(data_df1)
+
+    return result
